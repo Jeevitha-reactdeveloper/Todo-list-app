@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 22px;
+}
+
+body{
+  min-height: 100vh;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid mediumblue;
+  margin: auto;
+  
+}
+
+header{
+  width: 70%;
+  padding: 10px;
+  background-color: mediumblue;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+main{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  overflow-y: auto;
+  margin: auto;
+  min-height: 70vh;
+ 
+}
+
+footer{
+  width: 70%;
+  padding: 10px;
+  background-color: mediumblue;
+  color: white;
+  display: grid;
+  place-content: center;
+  margin: auto;
+}
+
+ul{
+  width: 100%;
+  padding: 15px;
+  min-height: 70vh;
+}
+
+.list{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin: 8px;
+  background-color:wheat;
+}
+
+.list input[type="checkbox"]{
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.list label{
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  padding: 10px;
+}
+
+.list svg{
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.addForm{
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 3rem 2rem;
+  padding: 0 0.5rem 0.25rem;
+  border-bottom: 1px solid white;
+  margin: auto;
+}
+
+.addForm label{
+  position: absolute;
+  left: -9999px;
+}
+
+.addForm input[type='text']{
+  flex-grow: 1;
+  min-height: 50px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+button{
+  height: 48px;
+  min-width: 48px;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  background-color: beige;
+  color:blue;
+  cursor: pointer;
+}
+
+button:focus,
+button:hover{
+  color:white;
+  background-color: green;
+  outline: none;
+}
+
+.searchForm{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 0 0.5rem 0.25rem;
+  border-bottom: 1px solid white;
+}
+
+.searchForm label{
+  position: absolute;
+  left: -99999px;
+}
+
+.searchForm input[type='text']{
+flex-grow: 1;
+max-width: 100%;
+min-height: 48px;
+font-size: 1rem;
+padding: 20px;
+border-radius: 20px;
+outline: none;
+}

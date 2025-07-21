@@ -8,7 +8,6 @@ import SearchItem from './SearchItem';
 
 
 function App() {
-  const API_URL ='https://todo-json-server-g159.onrender.com'
   const [items,setItems] = useState([]);
   const [newItem,setNewItem] = useState('')
   const [search,setSearch] =useState('')

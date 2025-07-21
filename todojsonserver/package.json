@@ -1,0 +1,10 @@
+{
+  "name": "json-server-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --watch data/db.json --port 10000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

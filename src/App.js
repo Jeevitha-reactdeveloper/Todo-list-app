@@ -9,7 +9,7 @@ import apiRequest from './apiRequest';
 
 
 function App() {
-  const API_URL ='http://localhost:3500/items'
+  const API_URL ='https://todo-json-server-g159.onrender.com'
   const [items,setItems] = useState([]);
   const [newItem,setNewItem] = useState('')
   const [search,setSearch] =useState('')

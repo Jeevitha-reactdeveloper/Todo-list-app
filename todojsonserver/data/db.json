@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": true,
+      "item": "Wake up at 6.00 am"
+    },
+    {
+      "id": 2,
+      "checked": true,
+      "item": "Refresh,drink a glass of water"
+    },
+    {
+      "id": 3,
+      "checked": true,
+      "item": "Go for a walk"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "cook your food"
+    },
+    {
+      "id": 5,
+      "checked": false,
+      "item": "take 1 hour of time to update or learn a new skill"
+    },
+    {
+      "id": 6,
+      "checked": false,
+      "item": "Do coding"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
